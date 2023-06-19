@@ -163,53 +163,60 @@ ls /usr/share/themes
 ls /usr/share/icons
 ```
 
-### Atajos de teclado basicos
-================
-  Nvim Teclas
-================
+## Atajos de teclado basicos
+
+### Nvim Teclas
 
 Ctrl+Space+p+t -> Arbol de directorios
+
 Ctrl+Space+p+f -> Previsualizacion de archivos
+
 Ctrl+Space+p+v -> Visualizador directorios vim
+
 Ctrl+Space+p+u -> Arbol de cambios realizados
+
 Ctrl+Space+te  -> Terminal en el direcciorio actual
 
-================
-     Nvim
-================
+### Nvim
 
 Mode: Visualizacion
+
 Shift+v -> Selecciona toda la linea
+
 Ctrl+v -> Seleccion por bloque
+
 Shift+K -> Desplaza seleccion hacia arriba
+
 Shift+J -> Desplaca seleccion hacia abajo
+
 Y -> Copia toda la seleccion
 
-================
- Mode: Normal
-================
+## Mode: Normal
 
 [n] : Son las cantidad de lineas a hacer:
 
 [n]+y -> Copiar
+
 [n]+p -> Pegar
+
 [n]+d -> Elimiar
 
-
-================
-    NeoTree
-================
+## NeoTree
 
 a -> Crear documentos o directorios
+
 x -> Cortar
+
 c -> Copiar
+
 r -> Renombrar
+
 m -> Mover
+
 s -> Abrir documento verticalmente
+
 R -> Refresh
 
+# Rofi
 
-================
-     Rofi
-================
 shitf+m -> lanza rofi
