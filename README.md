@@ -194,13 +194,10 @@ Luego ingresa con un editor de texto, yo usare nvim
 
 ```
 sudo nvim /etc/modprobe.d/alsa-base.conf
-
 ```
 Inserte esta línea en la parte inferior del archivo options `snd-hda-intel model={HD-audio model for you codec}` . Por ejemplo, para mí fue
-
 ```
 options snd-hda-intel model=alc255-acer,dell-headset-multi
-
 ```
 
 
