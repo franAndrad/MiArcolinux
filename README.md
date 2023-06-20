@@ -163,6 +163,48 @@ ls /usr/share/themes
 ls /usr/share/icons
 ```
 
+## Monitores
+
+Si tienes múltiples monitores, seguramente quieras usarlos todos. Así es como funciona xrandr:
+
+```
+# Lista todas las salidas y resoluciones disponibles
+xrandr
+# Formato común para un portátil con monitor extra
+xrandr --output eDP-1 --primary --mode 1920x1080 --pos 0x1080 --output HDMI-1-0 --mode 1920x1080 --pos 0x0
+```
+
+Es necesario especificar la posición de cada salida, si no se utilizará 0x0, y todas las salidas estarán solapadas. Ahora bien, si no quieres calcular píxeles y demás necesitas una interfaz gráfica como arandr:
+
+```
+sudo pacman -S arandr
+```
+
+## Prueba de microfono
+
+Ingresa a la parte superior, al incono de sonido haz click derecho y abre el mixer. Verifica si el microfono de tus auriculares esta funcionando de lo contrario ejecuta el siguiente comando
+
+```
+cat /proc/asound/card*/codec* | grep Codec
+
+```
+Toma nota de los codecs que aparecen y Busque el modelo de HD-audio para su códec en [Modelos específicos de codificación de audio de alta definición](https://www.kernel.org/doc/html/latest/sound/hd-audio/models.html)
+
+Luego ingresa con un editor de texto, yo usare nvim
+
+```
+sudo nvim /etc/modprobe.d/alsa-base.conf
+
+```
+Inserte esta línea en la parte inferior del archivo options `snd-hda-intel model={HD-audio model for you codec}` . Por ejemplo, para mí fue
+
+```
+options snd-hda-intel model=alc255-acer,dell-headset-multi
+
+```
+
+
+
 ## Atajos de teclado basicos
 
 ### Nvim Teclas
