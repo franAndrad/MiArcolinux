@@ -61,6 +61,13 @@ Ahora instalamos el plugin de iconos
 ```
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins
 ```
+Ahora agregagos el archivo de configuracion `rc.conf`
+
+```
+set preview_images_method ueberzug
+default_linemode devicons
+set show_hidden true
+```
 
 ### Rofi
 
