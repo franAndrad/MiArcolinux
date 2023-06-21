@@ -47,6 +47,14 @@ El tema establecido esta en `.config.json`
  "theme": "material-ocean"
 ```
 
+Agregamos el icono de la bateria y el sonido
+
+```
+sudo pacman -S volumeicon cbatticon
+volumeicon &
+cbatticon &
+```
+
 ### Ranger
 
 Instalamos ranger
@@ -61,7 +69,7 @@ Ahora instalamos el plugin de iconos
 ```
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins
 ```
-Ahora agregagos el archivo de configuracion `rc.conf`
+Ahora agregamos el archivo de configuracion `rc.conf`
 
 ```
 set preview_images_method ueberzug
