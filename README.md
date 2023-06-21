@@ -22,10 +22,16 @@ nmcli device wifi connec "name" password "password"
 
 Dependecias qtile
 
+Descargamos nerd-fonts-ubuntu-mono
+
+[UbuntuMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+
+Movemos el .zip a la carpte `usr/share/fonts`
+
 ```
-yay -S nerd-fonts-ubuntu-mono
-pip install psutil
+sudo mv UbuntuMono.zip /usr/share/fonts/
 ```
+
 Clonar el repo y copiar la carpeta `.config/qtile`
 
 Si el icono de red no funciona, vamos a `.config/qtile/settings/widgets.py` y modificamos esta linea con nuestros datos
