@@ -107,7 +107,7 @@ Ingresamos desde nvim a `.config/nvim/lua/theprimeagen` y ejecutamos `:so` y lue
 
 ### Gtk Theming
 
-Utiliza: [Material-Black-Blueberry](https://github.com/rtlewis1/GTK.git) y [Material-Black-Blueberry-Suru](https://github.com/rtlewis88/rtl88-Themes.git)
+Utiliza: [Material-Black-Blueberry](https://github.com/rtlewis1/GTK/tree/Material-Black-Colors-Desktop) y [Material-Black-Blueberry-Suru]([https://github.com/rtlewis88/rtl88-Themes.git](https://github.com/rtlewis88/rtl88-Themes/tree/material-black-COLORS))
 
 ```
 # Asumiendo que has descargado Material-Black-Blueberry
