@@ -245,6 +245,14 @@ Inserte esta línea en la parte inferior del archivo options `snd-hda-intel mode
 options snd-hda-intel model=alc255-acer,dell-headset-multi
 ```
 
+### Graficos Nvidia
+
+Instalamos
+
+```
+sudo pacman -Syu nvidia nvidia-utils nvidia-settings
+```
+
 
 
 ## Atajos de teclado basicos
