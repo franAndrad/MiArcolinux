@@ -120,6 +120,8 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+NO HACER CON SUDO LO DE ABAJO!!!
+
 Copia mis configuraciones en `./config/nvim/`
 
 Ingresamos desde nvim a `.config/nvim/lua/theprimeagen` y ejecutamos `:so` y luego `:PackerSync` 
