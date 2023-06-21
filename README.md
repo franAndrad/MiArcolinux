@@ -55,6 +55,22 @@ volumeicon &
 cbatticon &
 ```
 
+### zsh
+
+Descargamos zsh
+
+```
+sudo pacman -S zsh zsh-completions
+```
+
+Cambia el shell por defecto a ZSH
+
+```
+chsh -s /bin/zsh
+```
+
+Ingresa al `.zsh` del reposirio y clona las dependencias colocadas en el mismo y reiniciamos para que el cambio sea visible
+
 ### Ranger
 
 Instalamos ranger
