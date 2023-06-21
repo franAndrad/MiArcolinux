@@ -41,6 +41,11 @@ Si el icono de red no funciona, vamos a `.config/qtile/settings/widgets.py` y mo
  widget.Net(**base(bg='color3'), interface='wlp2s0'),
 ```
 
+El tema establecido esta en `.config.json`
+
+```
+ "theme": "material-ocean"
+```
 
 ### Ranger
 
