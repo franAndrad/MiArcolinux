@@ -127,6 +127,7 @@ Instala neovim
 
 ```
 sudo pacman -Syu neovim
+sudo pacman -Syu npm
 ```
 
 Ejecutamos el siguiente comando para que funcione packer
