@@ -149,7 +149,7 @@ NO HACER CON SUDO LO DE ABAJO!!!
 
 Copia mis configuraciones en `./config/nvim/`
 
-Ingresamos desde nvim a `.config/nvim/lua/theprimeagen` y ejecutamos `:so` y luego `:PackerSync` 
+Ingresamos desde nvim a `.config/nvim/lua/theprimeagen/packer.lua` y ejecutamos `:so` y luego `:PackerSync` 
 
 
 ### Gtk Theming
