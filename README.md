@@ -30,6 +30,8 @@ Movemos el .zip a la carpte `usr/share/fonts`
 
 ```
 sudo mv UbuntuMono.zip /usr/share/fonts/
+cd /usr/shar/fonts
+sudo unzip UbuntuMono.zip
 ```
 
 Clonar el repo y copiar la carpeta `.config/qtile`
