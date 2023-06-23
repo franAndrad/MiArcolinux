@@ -160,13 +160,14 @@ Utiliza: [Material-Black-Blueberry](https://github.com/rtlewis1/GTK/tree/Materia
 # Asumiendo que has descargado Material-Black-Blueberry
 cd Downloads/
 sudo pacman -S unzip
-unzip Material-Black-Blueberry.zip
-unzip Material-Black-Blueberry-Suru.zip
-rm Material-Black*.zip
+GTK-Material-Black-Colors-Desktop.zip
+rtl88-Themes-material-black-COLORS.zip
+rm GTK-Material-Black-Colors-Desktop.zip
+rm rtl88-Themes-material-black-COLORS.zip
 
 # Haz tu tema visible a GTK
-sudo mv Material-Black-Blueberry /usr/share/themes
-sudo mv Material-Black-Blueberry-Suru /usr/share/icons
+sudo mv GTK-Material-Black-Colors-Desktop/Material-Black-Blueberry /usr/share/themes/
+sudo mv rtl88-Themes-material-black-COLORS/Material-Black-Blueberry-Suru/ /usr/share/icons/
 ```
 
 Edita `~/.config/gtk-3.0/settings.ini` añdiendo estas líneas
