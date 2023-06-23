@@ -71,7 +71,13 @@ Cambia el shell por defecto a ZSH
 chsh -s /bin/zsh
 ```
 
-Ingresa al `.zsh` del reposirio y clona las dependencias colocadas en el mismo y reiniciamos para que el cambio sea visible
+Copia el `.zshrc` del reposirio en `~/`
+
+```
+cp .zshrc ~/
+```
+
+Clona las dependencias colocadas en el mismo y reiniciamos para que el cambio sea visible
 
 ### Ranger
 
